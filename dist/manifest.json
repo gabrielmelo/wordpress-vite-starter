@@ -1,10 +1,8 @@
 {
-  "main.js": {
-    "file": "assets/main.8b9fc216.js",
-    "src": "main.js",
-    "isEntry": true,
-    "css": [
-      "assets/main.325e7760.css"
-    ]
-  }
+	"main.js": {
+		"file": "assets/main.8b9fc216.js",
+		"src": "main.js",
+		"isEntry": true,
+		"css": ["assets/main.325e7760.css"]
+	}
 }
