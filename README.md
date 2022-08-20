@@ -1,12 +1,12 @@
-# Boilerplate Wordpress Theme with Tailwindcss & Vite
+# Wordpress Theme Starter
 
-Example of using Vite + TailwindCSS in Wordpress Theme development. Auto generating CSS, auto refresh on every file save/edit and easy production build tool with no hassle.
+Example of using Vitejs, TailwindCSS in Wordpress Theme development. Auto generating CSS, auto refresh on every file save/edit and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341
 
 <img src="assets/img/hello-world.jpg" width="100%">
 
 ## Main features
-
+- Repo [Commitizen](https://github.com/commitizen/cz-cli) friendly
 - fast Auto browser refresh/sync file change/save
 - built in Tailwindcss Just-in-time compiler
 - extremely small CSS as there is no unsued css at all

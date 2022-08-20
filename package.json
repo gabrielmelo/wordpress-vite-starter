@@ -1,21 +1,31 @@
 {
-	"name": "wptheme-vite-starter",
+	"name": "wp-theme-starter",
+	"description": "Wordpress Theme with Vitejs and Tailwindcss",
 	"version": "0.4.0",
 	"private": true,
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development vite",
-		"build": "vite build"
+		"build": "vite build",
+		"release": "standard-version",
+		"release:minor": "yarn release -- --release-as minor"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.4",
 		"cross-env": "^7.0.3",
+		"cz-conventional-changelog": "3.3.0",
 		"eslint": "^8.20.0",
 		"eslint-config-prettier": "^8.5.0",
 		"postcss": "^8.4.12",
 		"postcss-nested": "^5.0.6",
 		"prettier": "2.7.1",
+		"standard-version": "^9.5.0",
 		"tailwindcss": "^3.0.23",
 		"vite": "^2.9.1",
 		"vite-plugin-live-reload": "^2.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }
