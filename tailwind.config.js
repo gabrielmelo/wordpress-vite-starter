@@ -1,5 +1,8 @@
 module.exports = {
-	content: ['./*.php', './inc/**/*.php', './templates/**/*.php'],
+	content: [
+		'./src/**/*.{css,js,ts}',
+		'./includes/**/*.php',
+	],
 	safelist: ['text-center'],
 	theme: {
 		extend: {},
